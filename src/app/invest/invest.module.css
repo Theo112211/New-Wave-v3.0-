@@ -1,0 +1,179 @@
+.mainwrapper {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background: #1f2e58;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  padding: 15px;
+  color: rgba(255, 255, 255, 0.856);
+  background: #1f2e58;
+  -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.imgdiv {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: max-content;
+}
+
+.img {
+  width: 20px;
+  height: 15px;
+  /* height: 16px; */
+}
+
+.title {
+  line-height: 1;
+  text-align: center;
+}
+.investment {
+}
+
+.login {
+  background: transparent;
+  color: white;
+  border: none;
+  font-weight: normal;
+  padding: 5px;
+}
+
+.register {
+  width: 80px;
+  padding: 5px;
+  border: none;
+
+  border-radius: 10px;
+}
+
+.logins {
+  display: flex;
+  gap: 5px;
+}
+
+.down {
+  width: 100%;
+  height: calc(100vh - 60px);
+  overflow-y: scroll;
+  background: radial-gradient(#2f96f056, #1f2e58);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.imgdiv1 {
+  width: 100%;
+}
+
+.imghero {
+  width: 100%;
+  border-radius: 10px;
+  filter: brightness(50%);
+  height: max-content;
+}
+.writings {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -160px;
+}
+
+.h2 {
+  color: #2f96f0;
+  font-weight: bold;
+  font-size: 2.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h3 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: -15px;
+}
+
+.investbtn {
+  background: radial-gradient(#2f96f0, #1f2e58);
+  border: 1px solid #2f96f0;
+  color: white;
+  padding: 10px;
+  width: 70%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
+}
+
+.afterhero {
+  margin-top: 30px;
+  padding: 10px;
+  background: #1d2538dc;
+  text-align: center;
+}
+
+.para {
+  color: rgba(255, 255, 255, 0.603);
+}
+
+.h22 {
+  color: #2f96f0;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.offer1 {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.stock {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  left: 80px;
+  top: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 60%;
+  background: rgba(255, 0, 0, 0.884);
+}
+
+.offerimg {
+  width: 85%;
+  filter: brightness(60%);
+  border-radius: 10px;
+  height: max-content;
+}
+
+.p {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.desc {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  font-weight: normal;
+  width: 85%;
+  top: 80px;
+  color: rgba(255, 255, 255, 0.911);
+  left: 30px;
+}
